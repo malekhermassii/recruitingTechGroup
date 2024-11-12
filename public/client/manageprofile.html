@@ -234,7 +234,7 @@
   var url_string = window.location.href;
 var url = new URL(url_string);
 var c = url.searchParams.get("id");
-var url3 = "http://127.0.0.1:3000/users/" + c;
+var url3 = "https://recruitingtechgroup.onrender.com/users/" + c;
 var xhr3 = new XMLHttpRequest();
 xhr3.open("GET", url3, true);
 
@@ -257,7 +257,7 @@ function update() {
  var url_string = window.location.href;
  var url = new URL(url_string);
  var c = url.searchParams.get("id");
- var url4 = "http://127.0.0.1:3000/users/" + c;
+ var url4 = "https://recruitingtechgroup.onrender.com/users/" + c;
  var data = {};
  data.name = document.getElementById("name").value; 
     data.surname = document.getElementById("surname").value; 

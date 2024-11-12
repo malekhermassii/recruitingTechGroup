@@ -354,7 +354,7 @@
     var url_string = window.location.href;
     var url = new URL(url_string);
     var c = url.searchParams.get("id");
-    var url3 = "http://127.0.0.1:3000/interviews/" + c;
+    var url3 = "https://recruitingtechgroup.onrender.com/interviews/" + c;
     var xhr3 = new XMLHttpRequest();
     xhr3.open("GET", url3, true);
     
@@ -374,7 +374,7 @@
       var url_string = window.location.href;
       var url = new URL(url_string);
       var c = url.searchParams.get("id");
-      var url4 = "http://127.0.0.1:3000/interviews/" + c;
+      var url4 = "https://recruitingtechgroup.onrender.com/interviews/" + c;
       var data = {};
       data.candidate = document.getElementById("candidate").value;     
         data.date = document.getElementById("date").value; 

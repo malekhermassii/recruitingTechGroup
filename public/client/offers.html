@@ -159,7 +159,7 @@
     <script src="js/main.js"></script>
     <script>
         var request = new XMLHttpRequest();
-        request.open("GET", "http://127.0.0.1:3000/jobs", true);
+        request.open("GET", "https://recruitingtechgroup.onrender.com/jobs", true);
         request.onload = function () {
           var data = JSON.parse(this.response);
           var articleContainer = document.getElementById("jobsContainer");
